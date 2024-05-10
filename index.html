@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Permutations</title>
+  </head>
+  <body>
+    <textarea id="area" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue">Input Item</textarea><br>
+    <button onclick="addItem()">Enter Item</button>
+    <button onclick="reset()">Reset List</button>
+    <p id="list">List:</p><br>
+    <button onclick="permute(origin, ''); setList()">Permute</button><br>
+    <p id="permuted">Permutations:</p>
+  </body>
+<script src="script.js"></script>
+</html>
